@@ -14,10 +14,12 @@ export default function  Register (props)  {
             <input type="email" name="email" className="form-control"></input>
           </div>
           <div className="form-group">
-            <lable htmlFor="password" >Password:</lable>
+            <lable htmlFor="password" className="form-label" >Password:</lable>
             <input type="password" name="password" className="form-control"></input>
           </div>
-          <button type="submit" className="btn-btn-primary">Register</button>
+          <div className="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" className="btn btn-primary">Register</button>
+          </div>
         </form>
       </div>
     );
